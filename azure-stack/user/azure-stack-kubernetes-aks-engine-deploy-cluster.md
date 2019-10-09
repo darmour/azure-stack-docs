@@ -166,7 +166,7 @@ Verify your cluster by deploying mysql with Helm to check your cluster.
 4.  Run the following commands:
 
     ```bash
-    sudo snap install helm –classic
+    sudo snap install helm -–classic
     helm repo update
     helm install stable/mysql
     ```
